@@ -1,0 +1,10 @@
+[package]
+name = "rust_practice"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+diesel = { version = "2.1.0", features = ["postgres"] }
+serde = {version = "1.0.202", features = ["derive"] }
+dotenv = "0.15.0"
